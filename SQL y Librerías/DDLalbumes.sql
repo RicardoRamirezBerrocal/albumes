@@ -10,5 +10,6 @@ CREATE TABLE albumes (
     alb_artista VARCHAR(50) NOT NULL,
     alb_tipo VARCHAR(50) NOT NULL,
     alb_estrellas DOUBLE UNSIGNED NOT NULL,
-    alb_ediciones INT UNSIGNED NOT NULL
+    alb_ediciones INT UNSIGNED NOT NULL,
+    alb_votos INT UNSIGNED NOT NULL
 );
